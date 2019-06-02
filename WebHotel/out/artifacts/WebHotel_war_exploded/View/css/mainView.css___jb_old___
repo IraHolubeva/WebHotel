@@ -1,0 +1,187 @@
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "ArimaKoshi-Light";
+  src: url('founts/ArimaKoshi-Light.otf');
+}
+
+body{
+  margin: 0;
+  background-size:cover;
+  background: #464646 url('img/bg.jpg') no-repeat fixed center center;
+}
+
+h1{
+  color: #8E064B;
+  width: auto;
+  font-size: 60px;
+  font-family: "ArimaKoshi-Light";
+  text-align: center;
+  position: relative;
+
+}
+
+h3{
+  color: maroon;
+  font-size: 35px;
+  font-family: "ArimaKoshi-Light";
+}
+
+a{
+  font-weight: bold;
+  font-family: "ArimaKoshi-Light";
+  color: #8E064B;
+  font-size: 20px;
+}
+
+a:hover{
+  color: maroon;
+  text-decoration: underline;
+}
+
+.backLayer{
+  margin: 0px;
+  height: 290px;
+  background-color: #CCCC;
+}
+
+.info > ul{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  width: 200px;
+  display: flex;
+}
+
+.info > ul >li{
+  margin-top: 10px;
+  margin-left: 10px
+}
+
+#sign_up{
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+#sign_up:hover{
+  background-color: gray;
+  color:maroon;
+  transition: all 0.4s ease;
+}
+
+.menu *{
+  margin: 0;
+  padding: 0;
+}
+
+.menu > ul{
+  list-style: none;
+}
+
+.menu > ul{
+  display: block;
+  width: 165px;
+  font-size: 25px;
+  padding-left: 10px;
+  color: maroon;
+}
+
+.subMenu{
+  display: none;
+  margin-left: 5px;
+  background-color: #CCCC;
+  width: 150px;
+}
+
+.subMenu>li{
+  border: 1px solid maroon;
+  border-left: 2px;
+}
+
+.menu .subMenu>li:hover{
+  background-color: gray;
+  transition: all 0.3s ease;
+}
+
+ .menu li:hover ul{
+  display: block;
+}
+
+.dateInput{
+  margin: 0px;
+  padding: 0px;
+}
+
+.dateInput > form {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.dateInput >form > #datepicker1 #datepicker2{
+  margin: 0px 90px 0px 90px;
+}
+
+.btn-dark{
+  height: 40px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.mainContent{
+  display: block;
+  width: auto;
+  height: auto;
+  background-color:#cecece;
+  font-size: 20px;
+}
+
+.table tr.tr-content:hover{
+  background-color:#c4ffc4;
+  color:#8E064B;
+  opacity: 0.8;
+}
+
+.thead-purple{
+  background-color: #8E064B;
+  color: white;
+}
+.dateInput {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0px 0px 0px 30px;
+}
+
+
+.addData{
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+
+.mb-3{
+  width: 260px;
+  margin: 0px 60px 0px 40px;
+}
+
+
+.formBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 20px 0px 0px;
+}
+
+.btn-secondary{
+  height: 40px;
+  width: 100px;
+}
